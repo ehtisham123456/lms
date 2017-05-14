@@ -1,2 +1,21 @@
 /* CSS Document */
 
+.login{
+    margin-left: 430px;
+    margin-top: 550;
+}
+.first-name{
+	font-size:60px;
+}
+.Last-name{
+	font-size:60px;
+}
+.name-input{
+	font-size:40px;
+}
+.name-input2{
+	font-size:40px;
+}
+.button{
+	font-size:30px;
+}
