@@ -1,13 +1,13 @@
 /* CSS Document */
 
 body{
-	background-color:#2C1CBF;
+	background-color:#E6E2AF;
 }
 .login { 
 	height:300px;
 	width:1000px;
 	margin:auto;
-	border:10px #CCC solid;
+	border:10px #002F2F solid;
 	padding:10px;
 	margin-top:400px;
 }
@@ -22,6 +22,6 @@ body{
 .login label{
 	font-size:40px;
 	font: Geneva, Arial, Helvetica, sans-serif;
-	text-shadow:#FFFFFF;
-	color:#FFFFFF;
+	text-shadow:#002F2F;
+	color:#046380;
 }
