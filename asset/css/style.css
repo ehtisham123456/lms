@@ -4,7 +4,7 @@ body{
 	background-color:#2C1CBF;
 }
 .login { 
-	height:500px;
+	height:300px;
 	width:1000px;
 	margin:auto;
 	border:10px #CCC solid;
@@ -17,9 +17,11 @@ body{
 	margin:5px;
 	font-size:60px;
 	border-radius:130px;
+	border:none;
 }
 .login label{
-	font-size:60px;
+	font-size:40px;
 	font: Geneva, Arial, Helvetica, sans-serif;
 	text-shadow:#FFFFFF;
+	color:#FFFFFF;
 }
