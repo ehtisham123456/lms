@@ -4,25 +4,22 @@ body{
 	background-color: #FFFFFF;
 }
 .login { 
-	height:300px;
-	width:1000px;
+    height:300px;
+	width:500px;
 	margin:auto;
-	border-radius:130px;
-	border:10px #002F2F solid;
-	padding:10px;
+	border:1px #002F2F solid;
+	padding:0px;
 	margin-top:400px;
+	padding-left:30px;
 }
-
-.login input { 
-	padding:5px;
-	margin:5px;
-	font-size:60px;
-	border-radius:130px;
-	border:none;
+.login input{
+	margin-top: 21px;
+    padding: 16px;
+    width: 318px;
 }
-.login label{
-	font-size:40px;
-	font: Geneva, Arial, Helvetica, sans-serif;
-	text-shadow:#002F2F;
-	color:#046380;
+.chexk-box{
+	margin-left:-143px;
+}
+.login lable{
+	font-family:Arial, Helvetica, sans-serif;
 }

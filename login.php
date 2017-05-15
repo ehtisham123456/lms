@@ -2,10 +2,10 @@
 <?php include 'header.php';?>
 
 	 <form class="login">
-	 		<label>First name:</label>
-  	 		<input type="text" name="name"><br>
-			<label>Last name:</label>
-  	 		<input type="password" name="password"><br>
+  	 		<input type="text" placeholder="Username"  />
+			<input type="password" placeholder="password"  />
   	 		<input type="submit" value="Submit">
+			<input class="chexk-box" type="checkbox" />
+			<h4 style="margin-top:-19px; margin-left: 27px;">keep me sign in</h4>
 	 </form>
-<?php include 'footer.php';?>
+<?php include 'footer.php';?>			
