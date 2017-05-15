@@ -10,6 +10,7 @@ body{
 	border:1px #002F2F solid;
 	padding:0px;
 	margin-top:400px;
+	padding-top:137px;
 }
 .input{
 	margin-top: 25px;
@@ -32,4 +33,4 @@ body{
 	margin-top: -360px;
     margin-left: 756px;
     font-size: 76px;
-}
+	}
