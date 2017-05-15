@@ -12,4 +12,5 @@
 	}
 	echo "Connected successfully";
 	$blank = 'Nothing';
+	echo "blank";
 	?>
