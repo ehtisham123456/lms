@@ -1,6 +1,6 @@
 
 <?php include 'header.php';?>
-	<?php print_r($_REQUEST); ?>
+	//<?php print_r($_REQUEST); ?>
  		<?php $st_email = $_REQUEST['st_email'];
  		 	  $st_password = $_REQUEST['st_password'];
 			  
