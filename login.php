@@ -4,8 +4,8 @@
  		<?php $st_email = $_REQUEST['st_email'];
  		 	  $st_password = $_REQUEST['st_password'];
 			  
-			  echo "$st_email";
-			  echo "$st_password";
+			  echo $st_email;
+			  echo $st_password;
 			  
 			  ?>
 	 		<form class="login" method="post" action="login.php" >
