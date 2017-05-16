@@ -13,25 +13,20 @@ body{
 	padding-top:137px;
 }
 .input{
-	margin-top: 25px;
     padding: 16px;
     width: 318px;
 	text-transform:capitalize;
 	font-family:Arial, Helvetica, sans-serif;
-	margin-left:65px;
+	margin:25px 0px 0px 65px;
 }
 .button{
 	width:100px;
 	width: 107px;
     height: 33px;
-    margin-left: 312px;
-    margin-top: 28px;
 	border:1px solid #999999;
+	margin:28px 0px 0px 308px;
 
 }
 .heading{
-	margin-top: -303px;
-    margin-left: 843px;
-	font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
+	margin:400px 0px -503px 823px;
 	}
