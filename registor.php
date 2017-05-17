@@ -15,7 +15,7 @@
 				 // GETTING DATA FROM FORM
 				 $st_email = $_REQUEST['st_email'];
 				 $st_password = $_REQUEST['st_password'];
-				 $st_name  = $_REQUEST ['YourName'];
+				 $st_name  = $_REQUEST ['st_name'];
 				 $st_status = 1;
 				 $created_at = date("Y-m-d H:i:s");
 				 $updated_at = date("Y-m-d H:i:s");
