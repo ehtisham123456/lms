@@ -15,7 +15,7 @@
 				 // GETTING DATA FROM FORM
 				 $st_email = $_REQUEST['st_email'];
 				 $st_password = $_REQUEST['st_password'];
-				 $st_name  = 'YourName';
+				 $st_name  = $_REQUEST ['YourName'];
 				 $st_status = 1;
 				 $created_at = date("Y-m-d H:i:s");
 				 $updated_at = date("Y-m-d H:i:s");
@@ -32,6 +32,7 @@
 			 <div class="registor-contentainer">
 			  <h1>Registor</h1>
 			  <form method="post" action="registor.php" >
+			  <input type="text" placeholder="yourname" name="st_name"  /><br />
 			   <input type="text" placeholder="Username" name="st_email"  /><br />
 			   <input type="password" placeholder="password" name="st_password"  /><br />
 			   <input type="submit" value="Submit">
