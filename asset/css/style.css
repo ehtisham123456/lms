@@ -4,6 +4,8 @@ body{
  		background-color: #FFFFFF;
  		font-family:Arial, Helvetica, sans-serif;
 }
+
+/* FOR LOGIN */
 .login-contentainer{
         width: 500px;
         height: 240px;
@@ -26,6 +28,39 @@ body{
  
 }
 .login-contentainer input[type="submit"]{
+ 		width:100px;
+ 		width: 107px;
+    	height: 33px;
+ 		border:1px solid #999999;
+
+}
+
+
+/* FOR REGISTER */
+
+
+.registor-contentainer{
+        width: 500px;
+        height: 240px;
+  		text-align:center;
+        position:fixed;
+        left:0; right:0;
+        top:0; bottom:0;
+        margin:auto;
+        border:1px #002F2F solid;
+  		padding: 2% 0;
+}
+.registor-contentainer h1{
+ 		font-size:18px;
+}
+.registor-contentainer input[type="text"], .registor-contentainer input[type="password"]{
+    	padding: 16px;
+    	width: 318px;
+ 		text-transform:capitalize;
+ 		margin-bottom:5px;
+ 
+}
+.registor-contentainer input[type="submit"]{
  		width:100px;
  		width: 107px;
     	height: 33px;
