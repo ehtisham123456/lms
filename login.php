@@ -2,35 +2,36 @@
 <?php include 'header.php';?>
  		<?php 
 			  
-			   if (isset($_REQUEST['st_email'])) {
+			    if (isset($_REQUEST['st_email'])) {
  				$st_email = $_REQUEST['st_email'];
  				$st_password = $_REQUEST['st_password'];
- 				echo $st_email;
- 				echo $st_password;
-				}
+				$st_password = md5($st_password);
+				
 				// Create connection
 				$dbhost = 'localhost';
    				$dbuser = 'root';
    				$dbpass = '';
 				$dbname = "db_lms";
-  	 			$conn = mysql_connect($dbhost,$dbuser,$dbpass);
+  	 			$conn = mysqli_connect($dbhost,$dbuser,$dbpass);
+				mysqli_select_db($conn, $dbname);
    				// Check connection
    				if(! $conn ) {
-      			die('Could not connect: ' . mysql_error());
+      			die('Could not connect: ' . mysqli_error());
 				}
-				$sql = "SELECT ,st_email,st_password FROM lms_student";
-				$result = "mysqli_query($conn, $sql)";
+				$sql = "SELECT * FROM lms_student where  `st_email` = '".$st_email."' and  `st_password` = '".$st_password."'";
+				$result = mysqli_query($conn, $sql);
 	
 				if (mysqli_num_rows($result) > 0) { 
 				// output data of each row
 				while($row = mysqli_fetch_assoc ($result)) {
-				echo "id: " . $row[""]. " - Name: " . $row["st_email"]. " " . $row["st_password"]. "<br>";
+				echo  " - Name: " . $row["st_email"]. " " . $row["st_password"]. "<br>";
 				}
 				} else {
 				echo "0 results";
 					}
-	
-				'mysqli_close ($conn)';
+				
+				mysqli_close ($conn);
+				}
 				?> 
 
    
