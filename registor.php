@@ -20,8 +20,8 @@
 				 $st_status = 1;
 				 $created_at = date("Y-m-d H:i:s");
 				 $updated_at = date("Y-m-d H:i:s");
-				
-				 $sql = "INSERT INTO `st_student`(`st_name`,`st_email`,`st_password`,`st_status`,`created_at`,`updated_at`)
+				 // this is insert query
+				 $sql = "INSERT INTO `lms_student`(`st_name`,`st_email`,`st_password`,`st_status`,`created_at`,`updated_at`)
 				 VALUES ('".$st_name."','".$st_email."','".$st_password."','".$st_status."','".$created_at."','".$updated_at."')";
 				 mysqli_query($conn,$sql);
 				 mysqli_close($conn);
