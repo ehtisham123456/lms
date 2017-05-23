@@ -19,6 +19,7 @@
       			die('Could not connect: ' . mysqli_error());
 				}
 				$sql = "SELECT * FROM lms_student where  `st_email` = '".$st_email."' and  `st_password` = '".$st_password."'";
+				echo $sql;
 				$result = mysqli_query($conn, $sql);
 	
 				if (mysqli_num_rows($result) > 0) { 
@@ -33,6 +34,7 @@
 				mysqli_close ($conn);
 				}
 				?> 
+                
 
    
 				
